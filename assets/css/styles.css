@@ -294,6 +294,9 @@ footer .latest_text_color {
         height: auto;
         flex-direction: column;
     }
+    .widget_title_text{
+        padding-top: 65px;
+    }
     .container {
         flex-direction: column;
     }
@@ -316,6 +319,10 @@ footer .latest_text_color {
     nav ul {
         flex-direction: column;
         display: none;
+        position: absolute;
+        background-color: #FFF;
+        left: 0;
+        width: 100%;
     }
     header {
         height: auto;
